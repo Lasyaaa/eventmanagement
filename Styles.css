@@ -1,0 +1,31 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fefefe;
+  }
+  
+  .event-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .btn-gradient {
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-gradient:hover {
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+  }
+  
